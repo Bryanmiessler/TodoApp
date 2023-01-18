@@ -22,7 +22,7 @@
 .LoadingTodo-completeIcon {
   height: 35px;
   width: 35px;
-  border-radius: 50px;
+  border-radius: 12px;
 }
 
 .LoadingTodo-deleteIcon {

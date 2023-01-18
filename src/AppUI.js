@@ -22,13 +22,17 @@ function AppUi () {
     openModal,
   } = useContext(TodoContext);
 
+
   return (
   <Fragment>
     <TodoCounter />  
     <TodoSearch />
     <TodoList>
         {error && <TodosError error = {error} />}
-        {loading && <TodosLoading />}
+        {loading && 
+            new Array(4).fill().map((item, index)=>(
+              <TodosLoading key={index} />
+))}
         {(!loading && !searchedTodos.length) && <EmptyTodos />}
         {searchedTodos.map(todo => (
         <TodoItem key={todo.text} text={todo.text} completed={todo.completed} onComplete={() => finishedTodo(todo.text)} onDelete={() => deleteTodo(todo.text)}/>
