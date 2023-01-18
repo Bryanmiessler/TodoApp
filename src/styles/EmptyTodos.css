@@ -1,0 +1,20 @@
+.p-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0px;
+  height: 300px;
+}
+.adelante {
+  color: black;
+  font-weight: 1000;
+  font-size: 48px;
+  margin: -10px;
+}
+.crea {
+  color: white;
+  font-size: 24px;
+  font-weight: 800;
+  margin: 0;
+}
