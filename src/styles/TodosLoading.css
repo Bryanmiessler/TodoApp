@@ -20,20 +20,19 @@
 
 .LoadingTodo-deleteIcon,
 .LoadingTodo-completeIcon {
-  height: 48px;
-  width: 48px;
+  height: 35px;
+  width: 35px;
   border-radius: 50px;
 }
 
 .LoadingTodo-deleteIcon {
   position: absolute;
-  top: -24px;
-  right: 0
+  right: 20px;
 }
 
 .LoadingTodo-completeIcon {
   position: absolute;
-  left: 12px;
+  left: 20px;
 }
 
 .LoadingTodo-completeIcon,
